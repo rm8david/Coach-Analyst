@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql-coach
+    restart: unless-stopped
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: coach_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./backup.sql:/docker-entrypoint-initdb.d/backup.sql
