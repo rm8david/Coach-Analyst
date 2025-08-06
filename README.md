@@ -1,18 +1,15 @@
-# Coach-Analyst
-# Gestor de alineaciones para futbol-sala
-# La interfaz se ha hecho con JavaFX, la parte del backend con SpringBoot y se concecta a una base de datos MySQL
-# (Incluye el backup de la base de datos SQL, y un fichero .yml para levantar con docker-compose)
+Coach-Analyst
+Indoor-soccer team management and coaching
+The interface is made with JavaFX, for the backend I've used Hibernate and Spring and MYSQL as a database
+(It includes the .sql backup and an YML file if you want to boot un a docker container)
 
-COMO HACERLO FUNCIONAR
 
-1-Descargar la carpeta 'App JAR'
+Java – Spring – JavaFX – Gluon – Hibernate – MySQL – Git - Gluon
+•	Developed a Java desktop application to manage teams with CRUD operations over 7 entities: Calendar, Match, Player, Team, Tournament, Training, User
+•	Implemented a layered architecture and used Hibernate for ORM with complex entity relationships
+•	Designed a clean UI using JavaFX and Gluon
 
-2-Tenemos que montar un servicio mysql con docker-compose.(o crear una base de datos con el backup.sql)
-  Hay que tener docker-desktop funcionando
-  Ejecutamos el fichero docker-compose de la carpeta App JAR
-  El comando: "docker-compose up" desde CMD en el directorio donde se encuentran los archivos
-  Esto creará un servicio MySQL en el puerto 3306 y cargará una copia del backup SQL (una base con datos de muestra)
-  
-3-Después, si tenemos java y javafx en nuestro equipo, debería de funcionar la app Coach.jar con un doble clic
-  Si nos da alguna excepción al iniciar, podemos lanzarlo con el comando "java -jar Coach.jar"
-  nota: springboot utiliza por defecto el puerto 8080 para tomcat,conviene desocupar ese puerto si queremos lanzar la app
+
+
+
+
