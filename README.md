@@ -9,7 +9,13 @@ Java – Spring – JavaFX – Gluon – Hibernate – MySQL – Git - Gluon
 •	Implemented a layered architecture and used Hibernate for ORM with complex entity relationships
 •	Designed a clean UI using JavaFX and Gluon
 
+Some captures of the interface in JavaFX
 
+![login](./login.jpg)
+![main](./mainMenu.jpg)
+![calendar](./calendar.jpg)
+![match](./match.jpg)
+![classification](./class.jpg)
 
 
 
